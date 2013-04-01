@@ -1,3 +1,7 @@
+ABOUT
+=====
+This custom template will automatically register each of the PHP running sites on a shared server as individual applications (using the domain name) on NewRelic.
+
 DEPLOYMENT
 ==========
 1. Copy these template set into ```/usr/local/``` folder. Making the new custom scripts available at ```usr/local/psa/admin/conf/templates/custom```.
