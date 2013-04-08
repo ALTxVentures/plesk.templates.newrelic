@@ -4,7 +4,7 @@ This custom template will automatically register each of the PHP running sites o
 
 DEPLOYMENT
 ==========
-1. Copy these template set into ```/usr/local/``` folder. Making the new custom scripts available at ```usr/local/psa/admin/conf/templates/custom```.
+1. Copy these template set into ```/usr/local/``` folder. Making the new custom scripts available at ```/usr/local/psa/admin/conf/templates/custom```.
 2. Ask Plesk to regenerate all the scripts. Parallels's offical [document](http://download1.parallels.com/Plesk/PP11/11.0/Doc/en-US/online/plesk-linux-advanced-administration-guide/index.htm?fileName=68693.htm) recommend ```/usr/local/psa/admin/bin/httpdmng --reconfigure-all``` to be called as root via terminal / ssh.
 
 
