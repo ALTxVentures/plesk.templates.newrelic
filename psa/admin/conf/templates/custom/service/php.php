@@ -14,7 +14,7 @@ if ($OPT['enabled']) {
 <?php
 if (isset($VAR->domain))
 {
-    echo 'php_value newrelic.appname "'.$VAR->domain->idnName.'"';
+	echo "php_value newrelic.appname '".$VAR->domain->idnName."'\n";
 }
 ?>
 </IfModule>
@@ -35,7 +35,7 @@ if (array_key_exists('enabled', $OPT) && $OPT['enabled']) {
 <?php
 if (isset($VAR->domain))
 {
-        echo 'php_value newrelic.appname "'.$VAR->domain->idnName.'"';
+	echo "php_value newrelic.appname '".$VAR->domain->idnName."'\n";
 }
 ?>
 </IfModule>
@@ -44,7 +44,7 @@ if (isset($VAR->domain))
 <?php
 if (isset($VAR->domain))
 {
-        echo 'php_value newrelic.appname "'.$VAR->domain->idnName.'"';
+	echo "php_value newrelic.appname '".$VAR->domain->idnName."'\n";
 }
 ?>
 </IfModule>
