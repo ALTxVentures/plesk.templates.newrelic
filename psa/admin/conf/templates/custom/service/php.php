@@ -1,3 +1,4 @@
+<IfModule <?php echo $VAR->server->webserver->apache->php4ModuleName ?>>
 <?php
 if ($OPT['enabled']) {
     echo "php_admin_flag engine on\n";
